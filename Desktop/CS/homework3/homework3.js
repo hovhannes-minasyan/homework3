@@ -60,6 +60,6 @@ const Compare1 = function (num1, num2 ){
  
 //-A function that takes three inputs and returns the first truethy value
 const FirstTruthy = function (thing1, thing2,thing3){
-	return thing1 || thing2 || thing3; 
+	return thing1 || thing2 || thing3 || false; 
 };
 
